@@ -5,7 +5,8 @@ public class Main
 
     public static void main(String[] args)
     {
-        System.out.println(sumUpTo(20));
+        for(int i = 1; i < 21; i++)
+            System.out.println(sumUpTo(i));
     }
 
     static int sumUpTo (int n)
